@@ -46,7 +46,8 @@ observe({
                                       "Empty Miles: ", d$`Empty Miles`[j], " miles", "<br>", 
                                       "Loaded Miles: ", d$`Original Loaded Miles`[j], " miles", "<br>", 
                                       "Running Miles: ", d$`Original Running Miles`[j], " miles", "<br>", 
-                                      "Dispatch/ETD DateTime: ", dat$`Dispatch Date-Time`[j], " - ", d$`ETD Date-Time`[j]
+                                      "Dispatch DateTime: ", dat$`Dispatch Date-Time`[j], "<br>", 
+                                      "ETD DateTime: ", d$`ETD Date-Time`[j]
                        ), label = paste("Driver ID: ", d$`Driver ID`[j]), 
                        options= markerOptions(riseOnHover = TRUE), clusterOptions = markerClusterOptions())%>%
       addLabelOnlyMarkers(lng = as.numeric(d$`Last Drop Longitude`[j]), lat = as.numeric(d$`Last Drop Latitude`[j]), 
