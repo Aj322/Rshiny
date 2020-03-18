@@ -1,3 +1,5 @@
+#UI - Plot tab
+
 tabItem(
   "plot",
   fluidRow(
