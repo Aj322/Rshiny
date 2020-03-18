@@ -1,3 +1,5 @@
+#UI - Maps tab
+
 tabItem(
   "maps",
   fluidRow(
