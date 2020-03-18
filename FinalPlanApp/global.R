@@ -10,9 +10,7 @@ library(DT)
 library(plotly)
 library(shinydashboardPlus)
 library(xlsx)
-# library(RODBC)
-# library(osrm)
-# library(doParallel)
+
 
 
 data <- read.xlsx2(file = "data/FinalPlanData.xlsx", sheetName = "data", check.names = FALSE, colClasses = NA, stringsAsFactors = FALSE)
